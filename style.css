@@ -1,0 +1,140 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 80px 10px;
+   
+}
+.left {
+    margin-left: 0;
+    margin-right: auto;
+    list-style: none;
+    font-size: 24px;
+    font-style: bold;
+}
+
+.right  {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.content {
+    
+    display: flex;
+    justify-content: center;
+    gap: 10%; 
+    padding: 5% 10% 5% 10%;
+    flex: 1;
+   
+}
+
+.title {
+   
+    font-size: 48px;
+    font-style: 'extra-bold';
+    margin-top: 0px;
+}
+
+.header-container {
+    background-color:#1f2937 ;
+    color: white;
+    padding-bottom: 3%; 
+}
+
+.img {
+    display: flex;
+    flex: 1;
+  
+}
+
+
+
+
+.radom {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 5% 20%;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.title-discription {
+    flex-basis: 50%;
+}
+
+.image-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.all-images {
+    display: flex;
+    gap: 5%;
+
+}
+
+.text   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 5px;
+}
+
+.signup-container {
+    background-color:#3882f6;
+    margin: 100px 20px 100px 20px;
+    padding: 5% 10%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 10px;
+    flex 1;
+    font-size: 20px;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border-radius: 5px;
+   border: 1px solid white ;
+  padding: 2px 30px 2px 30px;
+   font-size: 12px;
+}
+
+.footer {
+    background-color:#1f2937 ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
